@@ -1,0 +1,26 @@
+﻿1. A de jure standard is a standard that is developed and approved by an official 
+organization. For example the Institute of Electrical and Electronic Engineers(IEEE) has 
+the authority to create electrical standards such as wireless communication. This is 
+relevant to computer networking because wireless communication is now an integral 
+part of networking.
+
+A de facto standard is a standard so widely used that it is considered the standard even 
+though it has no official recognition. An example would be the QWERTY keyboard, 
+which is by far the most common keyboard pattern countries with a Latin-based 
+alphabet.
+
+The difference between de facto standards and de jure standards is simple. De jure 
+standards are approved by an official organization and de facto standards are “the 
+vernacular” of standards, meaning they are so common place that they have become 
+standards through their popularity.
+
+2. The Internet Engineering Task Force(IETF) is a very prevalent standards body. 
+Anyone can actively participate in the IETF. To get involved it is common practice to first 
+join the mentoring program where your integration into the IETF community will be 
+aided through advice, help, and collected wisdom. Then an interested person would join 
+a working group mail list(either one or many) whose topics are interesting or relevant. 
+The standards process is straightforward and ends with a completed standard. A 
+specification undergoes a period of development and several iterations of review by the 
+Internet community and revision based upon experience. It is then adopted as a 
+standard by the appropriate body and is published. The organization holds leverage 
+through the approval of other organizations and it’s widespread respect.

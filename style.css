@@ -1,0 +1,82 @@
+/* CSS to accompany assignment 7 */
+h1	{
+	color:#2d3e54;
+	width: 500px;
+	height: 50px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#2d3e54;
+	margin-top:10px;
+	margin-right:200px;
+	margin-left:80px;
+	position:relative;
+	left:100px;
+	}
+p	{
+	color:#000099;
+	width: 1000px;
+	height: 100px;
+	border-style: dotted;
+	padding-top: 20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-Left:40px;
+	z-index: -1;
+	}
+#email{
+	position:fixed;
+	bottom: 300px;
+	right:0;
+	left:700px;
+	border-style:solid;
+	
+	z-index:1;
+}
+#image{
+	z-index: -1;
+}
+#statue{
+	float:right;
+}
+#links
+{
+	clear:right;
+}
+h2	{color:#830909;}
+div{
+	position:relative;
+	left:30px;
+}
+code	{
+		float:left;
+		color:#663300;
+		font-weight:bold;
+	}
+ul	{
+	clear:left;
+	font-style:italic;}
+.notice	{color:#830909;}
+.hilite	{background-color:#FFFF00;}
+span.notice {
+	float:right;
+	font-weight:bold;}
+span.hilite	{font-size:75%;}
+a:link	{color:#003366;text-decoration:none;}
+a:visited	{color:#6699CC;text-decoration:none;}
+a:hover	{color:#CC3300;text-decoration:underline;}
+a:active	{color:#CC3300;text-decoration:underline;}
+#navigation {
+	position:absolute;
+	top:100px;
+	left:900px;
+	border-style:solid;
+	border-width: 3px;
+	float:left;
+	width:200px;
+	background-color:#33CCCC;
+	}
+#title	{color:#FF00FF;}
+ol li	{
+	position:absolute;
+	top:80px;
+	font-style:italic;}

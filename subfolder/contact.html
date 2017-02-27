@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact Me</title>
+		<meta charset="utf-8" >
+	<link rel="stylesheet" href="../stylesheet.css">
+	<style type="text/css">
+	#form1{
+		text-align:center;
+		border:3px solid #663399;
+		background-color:#008000;
+		text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+		color: #FFff00;
+	}
+	body{
+		background-image:url(../images/background.jpg);
+		background-size:100% 100%;
+		background-repeat:no-repeat;
+	}
+	</style>
+	</head>
+	<body>
+		<div id="head">
+		<h1>Contact Me</h1>
+			<p>Fill out the form below for suggestions or comments on the site</p>
+		</div>
+		<form id ="form1" method="post" action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+		<p>
+			<label for="fname">First Name:</label>
+			<input name="fname" id="fname" type="text">
+			<label for="lname">Last Name:</label>
+			<input name="lname" id="lname" type="text">
+		</p>
+		<fieldset>
+			<legend>Gender</legend>
+			<fieldset>
+				<input name="gender" id="genderm" type="radio" value="female" checked="checked">
+				<label for="genderm">Male</label>
+				<br>
+				<input name="gender" id="genderf" type="radio" value="female">
+				<label for="genderf">Female</label>
+				<br>
+				<input name="gender" id="gendero" type="radio" value="other">
+				<label for="gendero">Other</label>
+			</fieldset>
+			<br>
+			<label for="gendero">If Other, Specify:</label>
+			<input name="gendero" id="gendero">
+		</fieldset>
+		<p>
+			<label for="liked">Did you enjoy the site:</label>
+			<select name="opinion" id="opinion">
+				<option>Liked it</option>
+				<option>Didn't like it</option>
+				<option>Loved it</option>
+				<option>Best thing I've seen</option>
+				<option>Unreal Aesthetics</option>
+				<option>Changed My Life</option>
+			</select>
+		</p>
+		<p>
+			<label for="strength">Strength of your opinion:</label>
+			<select name="strength" id="strength" size="3">
+				<option>Weak</option>
+				<option>Strong</option>
+				<option>Superhuman</option>
+				<option>Transcending Human Strength</option>
+				<option>Beyond this Universe</option>
+				<option>In Another Quantum Dimension</option>
+			</select>
+		</p>
+		<p>
+			Suggestions:
+			<br>
+			<textarea name="suggest" rows="3" cols="60"></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Send">
+			<input type="hidden" name="formtype" value="submit">
+		</p>
+		</form>
+		<p id="email"><a href = "../index.html" class = "links">return to index</a></p>
+	</body>
+</html>

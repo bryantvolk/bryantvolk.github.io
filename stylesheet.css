@@ -1,0 +1,68 @@
+/* CSS to accompany assignment 7 */
+#head{
+	text-align: center;
+	font-size: 25px;
+	color: #FFD700;
+}
+body{
+	background-image:url(images/retro.jpg);
+}
+p{
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	color: #FFff00;
+}
+.hilite{
+	color: #FFA500;
+	border: 1px solid #6a5acd;
+}
+.links{
+	color:#000000;
+	font-weight:bold
+}
+.links:hover{
+	color: #FFA500;
+	text-decoration: underline overline;
+}
+.links:visited{
+	font-weight:bold;
+	text-decoration: line-through;
+}
+#image{
+	text-align: center;
+	border:5px solid #663399;
+}
+#aspects{ 
+	color:#FFFF00;
+	font-size: 18px;
+}
+#email{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:200px;
+	background-color:white;
+	border:3px solid #663399;
+	text-shadow:none;
+	color:#000000;
+}
+#aoa{
+	text-align:center;
+}
+.height{
+	padding: 15px;
+	font-size:20px;
+}
+#aImage{
+	text-align:center;
+}
+#aSound{
+	text-align:center;
+	padding:30px;
+	color: #00ff00;
+}
+#aSound2{
+	text-align:center;
+	padding:30px;
+	color: #00ff00;
+}
